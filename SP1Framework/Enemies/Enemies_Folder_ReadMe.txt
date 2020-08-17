@@ -1,0 +1,1 @@
+This folder is a database containing the attributes of each enemy for the game.

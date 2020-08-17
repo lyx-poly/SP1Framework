@@ -3,11 +3,13 @@
 class Enemy : class Entity
 {
 public:
+	int enemytype;
+
 	Enemy();
-	void Define(int hp, int dmg); // Sets stats to an enemy object
+	void Define(int type); // Sets stats to an enemy object based
 	void movement(); // Movement AI
 	void Attack(Entity* ptrEntity);
-	void Defend();
+	void Defend(); 
 	~Enemy();
 };
 

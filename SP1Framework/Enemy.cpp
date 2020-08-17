@@ -5,7 +5,7 @@ Enemy::Enemy()
 	//
 }
 
-void Enemy::Define(int hp, int dmg)
+void Enemy::Define(int type)
 {
 	HP = hp;
 	Damage = dmg;
